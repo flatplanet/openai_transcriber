@@ -94,7 +94,7 @@ def transcribe_it():
 	my_text.delete(1.0, END)
 
 	# Set our Open AI API Key
-	openai.api_key = "YOUR_SSH_KEY_HERE"
+	openai.api_key = "YOUR_API_KEY_HERE"
 	# Open MP3 Audio file to transcribe
 	audio_file = open(AUDIO_FILE_PATH, "rb")
 	# Send the file to OpenAI API to transcribe!!!
